@@ -3,7 +3,7 @@
 > **Trusted AI agent, skill, security, and benchmark list — every entry scored on four angles (REG/TRUST/SAFE/MACH).**
 > **可信 AI 智能体 / 技能 / 安全 / 评测清单 —— 每一条目均经四角度评分（REG/TRUST/SAFE/MACH）。**
 
-[![LGD VERIFIED 42/44](https://img.shields.io/badge/LGD%20VERIFIED-42%2F44-2563eb)](https://github.com/zhaoxinghua09-cell/awesome-trusted-agents) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+[![LGD VERIFIED 43/45](https://img.shields.io/badge/LGD%20VERIFIED-43%2F45-2563eb)](https://github.com/zhaoxinghua09-cell/awesome-trusted-agents) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 ## Ecosystem at a glance / 生态一目了然
 
@@ -18,7 +18,7 @@ English: A curated, **machine-readable and evidence-based** list of AI agent pro
 
 中文：一份**可机器读取、有证据依据**的 AI 智能体 / 技能 / 安全工具 / 评测基准精选清单。与普通 "awesome" 列表不同，每一条目都带有**四角度评分**（REGISTERED 注册度 / TRUSTWORTHY 可信度 / SAFE 安全度 / MACHINE-READABLE 机器可读度），由开源的 [skill-scorecard](https://github.com/zhaoxinghua09-cell/skill-scorecard) 方法论产出，让您可以放心选用。
 
-**Current status / 当前状态**: 44 entries, 42 PASS · pilot scores based on public evidence, re-audit before final listing · 首批 44 条目，42 条通过；评分为公开资料初评，正式收录前逐条复核。
+**Current status / 当前状态**: 45 entries, 43 PASS · pilot scores based on public evidence, re-audit before final listing · 首批 45 条目，43 条通过；评分为公开资料初评，正式收录前逐条复核。
 
 ## Four-Angle Scoring / 四角度评分
 
@@ -148,6 +148,14 @@ python skill_scorecard.py <repo-or-skill-path> --json
 | [A2A](https://github.com/a2aproject/A2A) | Protocols & Infrastructure | 80 | 75 | 65 | 80 | **75** | ✅ PASS | Google agent2agent protocol — open interoperability for multi-agent systems. |
 
 *Protocols & Infrastructure entries: evidence notes — model-context-protocol: 公开资料初评; A2A: 公开资料初评*
+
+## LGD Series
+
+| Project | Category | REG | TRUST | SAFE | MACH | Total | Verdict | One-liner |
+|---|---|---|---|---|---|---|---|---|
+| [lgd-skill-marketplace](https://github.com/zhaoxinghua09-cell/lgd-skill-marketplace) | LGD Series | 90 | 88 | 85 | 92 | **88** | ✅ PASS | One-stop AI skill catalog: enter from any skill, reach all skills + the whole ecosystem |
+
+*LGD Series entries: evidence notes — lgd-skill-marketplace: index.json SSOT; 10 skills listed; llms.txt/AGENTS.md machine-readable*
 
 ---
 
