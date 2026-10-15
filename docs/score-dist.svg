@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="550" viewBox="0 0 760 550" font-family="Segoe UI,Arial,sans-serif">
+<rect width="760" height="550" fill="#ffffff"/>
+<text x="380" y="28" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">Top 20 — Four-Angle Total Score (LGD VERIFIED ≥ 60)</text>
+<text x="12" y="59" font-size="11" fill="#334155">skill-scorecard</text>
+<rect x="150" y="49" width="546" height="16" rx="3" fill="#16a34a"/>
+<text x="706" y="60" font-size="10.5" font-weight="600" fill="#0f172a">91</text>
+<text x="12" y="83" font-size="11" fill="#334155">lgd-guardrails</text>
+<rect x="150" y="73" width="546" height="16" rx="3" fill="#16a34a"/>
+<text x="706" y="84" font-size="10.5" font-weight="600" fill="#0f172a">91</text>
+<text x="12" y="107" font-size="11" fill="#334155">skill-quality-gate</text>
+<rect x="150" y="97" width="534" height="16" rx="3" fill="#16a34a"/>
+<text x="694" y="108" font-size="10.5" font-weight="600" fill="#0f172a">89</text>
+<text x="12" y="131" font-size="11" fill="#334155">skill-skeleton-generator</text>
+<rect x="150" y="121" width="528" height="16" rx="3" fill="#16a34a"/>
+<text x="688" y="132" font-size="10.5" font-weight="600" fill="#0f172a">88</text>
+<text x="12" y="155" font-size="11" fill="#334155">skill-registry</text>
+<rect x="150" y="145" width="528" height="16" rx="3" fill="#16a34a"/>
+<text x="688" y="156" font-size="10.5" font-weight="600" fill="#0f172a">88</text>
+<text x="12" y="179" font-size="11" fill="#334155">prompt-injection-guard</text>
+<rect x="150" y="169" width="516" height="16" rx="3" fill="#16a34a"/>
+<text x="676" y="180" font-size="10.5" font-weight="600" fill="#0f172a">86</text>
+<text x="12" y="203" font-size="11" fill="#334155">OWASP-LLM-Top10</text>
+<rect x="150" y="193" width="510" height="16" rx="3" fill="#16a34a"/>
+<text x="670" y="204" font-size="10.5" font-weight="600" fill="#0f172a">85</text>
+<text x="12" y="227" font-size="11" fill="#334155">silent-failure-scanner</text>
+<rect x="150" y="217" width="510" height="16" rx="3" fill="#16a34a"/>
+<text x="670" y="228" font-size="10.5" font-weight="600" fill="#0f172a">85</text>
+<text x="12" y="251" font-size="11" fill="#334155">badge-studio</text>
+<rect x="150" y="241" width="510" height="16" rx="3" fill="#16a34a"/>
+<text x="670" y="252" font-size="10.5" font-weight="600" fill="#0f172a">85</text>
+<text x="12" y="275" font-size="11" fill="#334155">llms-generator</text>
+<rect x="150" y="265" width="510" height="16" rx="3" fill="#16a34a"/>
+<text x="670" y="276" font-size="10.5" font-weight="600" fill="#0f172a">85</text>
+<text x="12" y="299" font-size="11" fill="#334155">context-token-budget</text>
+<rect x="150" y="289" width="504" height="16" rx="3" fill="#16a34a"/>
+<text x="664" y="300" font-size="10.5" font-weight="600" fill="#0f172a">84</text>
+<text x="12" y="323" font-size="11" fill="#334155">garak</text>
+<rect x="150" y="313" width="498" height="16" rx="3" fill="#16a34a"/>
+<text x="658" y="324" font-size="10.5" font-weight="600" fill="#0f172a">83</text>
+<text x="12" y="347" font-size="11" fill="#334155">PyRIT</text>
+<rect x="150" y="337" width="498" height="16" rx="3" fill="#16a34a"/>
+<text x="658" y="348" font-size="10.5" font-weight="600" fill="#0f172a">83</text>
+<text x="12" y="371" font-size="11" fill="#334155">theoriturgy</text>
+<rect x="150" y="361" width="492" height="16" rx="3" fill="#16a34a"/>
+<text x="652" y="372" font-size="10.5" font-weight="600" fill="#0f172a">82</text>
+<text x="12" y="395" font-size="11" fill="#334155">agent-skills</text>
+<rect x="150" y="385" width="486" height="16" rx="3" fill="#16a34a"/>
+<text x="646" y="396" font-size="10.5" font-weight="600" fill="#0f172a">81</text>
+<text x="12" y="419" font-size="11" fill="#334155">model-context-protocol</text>
+<rect x="150" y="409" width="486" height="16" rx="3" fill="#16a34a"/>
+<text x="646" y="420" font-size="10.5" font-weight="600" fill="#0f172a">81</text>
+<text x="12" y="443" font-size="11" fill="#334155">uibc-core</text>
+<rect x="150" y="433" width="480" height="16" rx="3" fill="#16a34a"/>
+<text x="640" y="444" font-size="10.5" font-weight="600" fill="#0f172a">80</text>
+<text x="12" y="467" font-size="11" fill="#334155">HELM</text>
+<rect x="150" y="457" width="480" height="16" rx="3" fill="#16a34a"/>
+<text x="640" y="468" font-size="10.5" font-weight="600" fill="#0f172a">80</text>
+<text x="12" y="491" font-size="11" fill="#334155">silent-failure-catalog</text>
+<rect x="150" y="481" width="468" height="16" rx="3" fill="#2563eb"/>
+<text x="628" y="492" font-size="10.5" font-weight="600" fill="#0f172a">78</text>
+<text x="12" y="515" font-size="11" fill="#334155">LangChain</text>
+<rect x="150" y="505" width="468" height="16" rx="3" fill="#2563eb"/>
+<text x="628" y="516" font-size="10.5" font-weight="600" fill="#0f172a">78</text>
+</svg>
