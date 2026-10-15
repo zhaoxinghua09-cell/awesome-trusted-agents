@@ -706,6 +706,22 @@
       "total": 68,
       "verdict": "PASS",
       "category_name": "AI-Native Dev Tools"
+    },
+    {
+      "name": "lgd-skill-marketplace",
+      "category": "lgd",
+      "category_name": "LGD Series",
+      "url": "https://github.com/zhaoxinghua09-cell/lgd-skill-marketplace",
+      "angles": {
+        "reg": 90,
+        "trust": 88,
+        "safe": 85,
+        "machine": 92
+      },
+      "value": "One-stop AI skill catalog: enter from any skill, reach all skills + the whole ecosystem",
+      "evidence": "index.json SSOT; 10 skills listed; llms.txt/AGENTS.md machine-readable",
+      "total": 88,
+      "verdict": "PASS"
     }
   ]
 }
