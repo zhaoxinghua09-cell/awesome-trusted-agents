@@ -3,7 +3,7 @@
 > **Trusted AI agent, skill, security, and benchmark list — every entry scored on four angles (REG/TRUST/SAFE/MACH).**
 > **可信 AI 智能体 / 技能 / 安全 / 评测清单 —— 每一条目均经四角度评分（REG/TRUST/SAFE/MACH）。**
 
-[![LGD VERIFIED 29/31](https://img.shields.io/badge/LGD%20VERIFIED-29%2F31-2563eb)](https://github.com/zhaoxinghua09-cell/awesome-trusted-agents) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+[![LGD VERIFIED 42/44](https://img.shields.io/badge/LGD%20VERIFIED-42%2F44-2563eb)](https://github.com/zhaoxinghua09-cell/awesome-trusted-agents) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 ## What is this? / 这是什么
 
@@ -11,7 +11,7 @@ English: A curated, **machine-readable and evidence-based** list of AI agent pro
 
 中文：一份**可机器读取、有证据依据**的 AI 智能体 / 技能 / 安全工具 / 评测基准精选清单。与普通 "awesome" 列表不同，每一条目都带有**四角度评分**（REGISTERED 注册度 / TRUSTWORTHY 可信度 / SAFE 安全度 / MACHINE-READABLE 机器可读度），由开源的 [skill-scorecard](https://github.com/zhaoxinghua09-cell/skill-scorecard) 方法论产出，让您可以放心选用。
 
-**Current status / 当前状态**: 31 entries, 29 PASS · pilot scores based on public evidence, re-audit before final listing · 首批 31 条目，29 条通过；评分为公开资料初评，正式收录前逐条复核。
+**Current status / 当前状态**: 44 entries, 42 PASS · pilot scores based on public evidence, re-audit before final listing · 首批 44 条目，42 条通过；评分为公开资料初评，正式收录前逐条复核。
 
 ## Four-Angle Scoring / 四角度评分
 
@@ -33,10 +33,12 @@ python skill_scorecard.py <repo-or-skill-path> --json
 
 1. [LGD Theory Assets](#lgd-theory-assets)
 2. [Agent Frameworks](#agent-frameworks)
-3. [Agent Skills](#agent-skills)
-4. [Security & Guardrails](#security--guardrails)
-5. [Benchmarks & Evaluation](#benchmarks--evaluation)
-6. [Protocols & Infrastructure](#protocols--infrastructure)
+3. [AI-Native Dev Tools](#ai-native-dev-tools)
+4. [Agent Skills](#agent-skills)
+5. [Agent Skills (LGD Series)](#agent-skills-(lgd-series))
+6. [Security & Guardrails](#security--guardrails)
+7. [Benchmarks & Evaluation](#benchmarks--evaluation)
+8. [Protocols & Infrastructure](#protocols--infrastructure)
 
 ---
 
@@ -69,6 +71,18 @@ python skill_scorecard.py <repo-or-skill-path> --json
 
 *Agent Frameworks entries: evidence notes — LangChain: 公开资料初评（stars/license/文档）; LlamaIndex: 公开资料初评; CrewAI: 公开资料初评; LangGraph: 公开资料初评; AutoGPT: 公开资料初评（历史安全事件记录）; OpenHands: 公开资料初评; Dify: 公开资料初评; n8n: 公开资料初评; OpenAgents: 公开资料初评*
 
+## AI-Native Dev Tools
+
+| Project | Category | REG | TRUST | SAFE | MACH | Total | Verdict | One-liner |
+|---|---|---|---|---|---|---|---|---|
+| [aider](https://github.com/Aider-AI/aider) | AI-Native Dev Tools | 75 | 70 | 60 | 72 | **69** | ✅ PASS | AI pair programming in your terminal (open source). |
+| [continue](https://github.com/continuedev/continue) | AI-Native Dev Tools | 72 | 70 | 58 | 70 | **68** | ✅ PASS | Open-source AI code assistant for IDEs. |
+| [cline](https://github.com/cline/cline) | AI-Native Dev Tools | 70 | 68 | 55 | 68 | **65** | ✅ PASS | Autonomous coding agent in your IDE (VSCode). |
+| [goose](https://github.com/block/goose) | AI-Native Dev Tools | 70 | 65 | 55 | 70 | **65** | ✅ PASS | Block's open-source AI agent, runs local tools and workflows. |
+| [tabby](https://github.com/TabbyML/tabby) | AI-Native Dev Tools | 72 | 68 | 60 | 70 | **68** | ✅ PASS | Self-hosted AI coding assistant, fully local. |
+
+*AI-Native Dev Tools entries: evidence notes — aider: 公开资料初评（省积分约束，待实跑复核）; continue: 公开资料初评（省积分约束，待实跑复核）; cline: 公开资料初评（省积分约束，待实跑复核）; goose: 公开资料初评（省积分约束，待实跑复核）; tabby: 公开资料初评（省积分约束，待实跑复核）*
+
 ## Agent Skills
 
 | Project | Category | REG | TRUST | SAFE | MACH | Total | Verdict | One-liner |
@@ -78,6 +92,21 @@ python skill_scorecard.py <repo-or-skill-path> --json
 | [openai-gpt-marketing](https://chatgpt.com/gpts) | Agent Skills | 70 | 50 | 35 | 55 | **52** | ⚠️ FAIL | OpenAI GPTs marketplace — hosted custom assistants (closed platform, mixed quality). |
 
 *Agent Skills entries: evidence notes — anthropic-skills: 公开资料初评; awesome-claude-skills: 公开资料初评; openai-gpt-marketing: 公开资料初评*
+
+## Agent Skills (LGD Series)
+
+| Project | Category | REG | TRUST | SAFE | MACH | Total | Verdict | One-liner |
+|---|---|---|---|---|---|---|---|---|
+| [skill-skeleton-generator](https://github.com/zhaoxinghua09-cell/skill-skeleton-generator) | Agent Skills (LGD Series) | 90 | 85 | 85 | 90 | **88** | ✅ PASS | One-command generator for LGD-compliant AI skill skeletons (SKILL.md + AGENTS.md). |
+| [prompt-injection-guard](https://github.com/zhaoxinghua09-cell/prompt-injection-guard) | Agent Skills (LGD Series) | 85 | 80 | 95 | 85 | **86** | ✅ PASS | Fail-closed prompt-injection / malicious-instruction scanner with 8-category threat taxonomy. |
+| [context-token-budget](https://github.com/zhaoxinghua09-cell/context-token-budget) | Agent Skills (LGD Series) | 85 | 80 | 85 | 85 | **84** | ✅ PASS | Fail-closed token budget guard — stop burning tokens in AI contexts. |
+| [silent-failure-scanner](https://github.com/zhaoxinghua09-cell/silent-failure-scanner) | Agent Skills (LGD Series) | 85 | 80 | 90 | 85 | **85** | ✅ PASS | Catches silent AI failures: placeholders, empty stubs, hedging, no-progress, hallucination markers. |
+| [badge-studio](https://github.com/zhaoxinghua09-cell/badge-studio) | Agent Skills (LGD Series) | 85 | 80 | 85 | 90 | **85** | ✅ PASS | ORCID-style fresh badges (20px, color-coded, thin type) for any project. |
+| [llms-generator](https://github.com/zhaoxinghua09-cell/llms-generator) | Agent Skills (LGD Series) | 85 | 80 | 85 | 90 | **85** | ✅ PASS | Generate llms.txt (LLMs.txt v2) + AI-discoverability packages for any project. |
+| [skill-quality-gate](https://github.com/zhaoxinghua09-cell/skill-quality-gate) | Agent Skills (LGD Series) | 90 | 85 | 90 | 90 | **89** | ✅ PASS | Pre-release health check for AI skills: frontmatter, placeholders, LGD markers, safety. |
+| [skill-registry](https://github.com/zhaoxinghua09-cell/skill-registry) | Agent Skills (LGD Series) | 90 | 85 | 85 | 90 | **88** | ✅ PASS | Single source of truth for skill collections: scan dirs into JSON + Markdown registry. |
+
+*Agent Skills (LGD Series) entries: evidence notes — skill-skeleton-generator: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15); prompt-injection-guard: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15); context-token-budget: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15); silent-failure-scanner: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15); badge-studio: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15); llms-generator: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15); skill-quality-gate: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15); skill-registry: skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)*
 
 ## Security & Guardrails
 
