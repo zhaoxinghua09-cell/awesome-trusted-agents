@@ -5,6 +5,13 @@
 
 [![LGD VERIFIED 42/44](https://img.shields.io/badge/LGD%20VERIFIED-42%2F44-2563eb)](https://github.com/zhaoxinghua09-cell/awesome-trusted-agents) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
+## Ecosystem at a glance / 生态一目了然
+
+<img src="docs/ecosystem.svg" alt="LGD Ecosystem map — enter from any point" width="800">
+
+<img src="docs/score-dist.svg" alt="Top 20 four-angle total scores" width="760">
+
+
 ## What is this? / 这是什么
 
 English: A curated, **machine-readable and evidence-based** list of AI agent projects, agent skills, security & guardrail tools, and evaluation benchmarks. Unlike plain "awesome" lists, every entry carries a **Four-Angle Score** (REGISTERED / TRUSTWORTHY / SAFE / MACHINE-READABLE) produced by our open [skill-scorecard](https://github.com/zhaoxinghua09-cell/skill-scorecard) methodology, so you can trust what you adopt.
