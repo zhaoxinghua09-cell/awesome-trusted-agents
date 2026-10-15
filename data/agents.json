@@ -498,6 +498,214 @@
       "total": 67,
       "verdict": "PASS",
       "category_name": "Agent Frameworks"
+    },
+    {
+      "name": "skill-skeleton-generator",
+      "url": "https://github.com/zhaoxinghua09-cell/skill-skeleton-generator",
+      "category": "skill",
+      "angles": {
+        "reg": 90,
+        "trust": 85,
+        "safe": 85,
+        "machine": 90
+      },
+      "value": "One-command generator for LGD-compliant AI skill skeletons (SKILL.md + AGENTS.md).",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 88,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "prompt-injection-guard",
+      "url": "https://github.com/zhaoxinghua09-cell/prompt-injection-guard",
+      "category": "skill",
+      "angles": {
+        "reg": 85,
+        "trust": 80,
+        "safe": 95,
+        "machine": 85
+      },
+      "value": "Fail-closed prompt-injection / malicious-instruction scanner with 8-category threat taxonomy.",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 86,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "context-token-budget",
+      "url": "https://github.com/zhaoxinghua09-cell/context-token-budget",
+      "category": "skill",
+      "angles": {
+        "reg": 85,
+        "trust": 80,
+        "safe": 85,
+        "machine": 85
+      },
+      "value": "Fail-closed token budget guard — stop burning tokens in AI contexts.",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 84,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "silent-failure-scanner",
+      "url": "https://github.com/zhaoxinghua09-cell/silent-failure-scanner",
+      "category": "skill",
+      "angles": {
+        "reg": 85,
+        "trust": 80,
+        "safe": 90,
+        "machine": 85
+      },
+      "value": "Catches silent AI failures: placeholders, empty stubs, hedging, no-progress, hallucination markers.",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 85,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "badge-studio",
+      "url": "https://github.com/zhaoxinghua09-cell/badge-studio",
+      "category": "skill",
+      "angles": {
+        "reg": 85,
+        "trust": 80,
+        "safe": 85,
+        "machine": 90
+      },
+      "value": "ORCID-style fresh badges (20px, color-coded, thin type) for any project.",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 85,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "llms-generator",
+      "url": "https://github.com/zhaoxinghua09-cell/llms-generator",
+      "category": "skill",
+      "angles": {
+        "reg": 85,
+        "trust": 80,
+        "safe": 85,
+        "machine": 90
+      },
+      "value": "Generate llms.txt (LLMs.txt v2) + AI-discoverability packages for any project.",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 85,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "skill-quality-gate",
+      "url": "https://github.com/zhaoxinghua09-cell/skill-quality-gate",
+      "category": "skill",
+      "angles": {
+        "reg": 90,
+        "trust": 85,
+        "safe": 90,
+        "machine": 90
+      },
+      "value": "Pre-release health check for AI skills: frontmatter, placeholders, LGD markers, safety.",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 89,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "skill-registry",
+      "url": "https://github.com/zhaoxinghua09-cell/skill-registry",
+      "category": "skill",
+      "angles": {
+        "reg": 90,
+        "trust": 85,
+        "safe": 85,
+        "machine": 90
+      },
+      "value": "Single source of truth for skill collections: scan dirs into JSON + Markdown registry.",
+      "evidence": "skill-quality-gate + silent-failure-scanner 实测 100/100 (2026-10-15)",
+      "total": 88,
+      "verdict": "PASS",
+      "category_name": "Agent Skills (LGD Series)"
+    },
+    {
+      "name": "aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "category": "ai-native",
+      "angles": {
+        "reg": 75,
+        "trust": 70,
+        "safe": 60,
+        "machine": 72
+      },
+      "value": "AI pair programming in your terminal (open source).",
+      "evidence": "公开资料初评（省积分约束，待实跑复核）",
+      "total": 69,
+      "verdict": "PASS",
+      "category_name": "AI-Native Dev Tools"
+    },
+    {
+      "name": "continue",
+      "url": "https://github.com/continuedev/continue",
+      "category": "ai-native",
+      "angles": {
+        "reg": 72,
+        "trust": 70,
+        "safe": 58,
+        "machine": 70
+      },
+      "value": "Open-source AI code assistant for IDEs.",
+      "evidence": "公开资料初评（省积分约束，待实跑复核）",
+      "total": 68,
+      "verdict": "PASS",
+      "category_name": "AI-Native Dev Tools"
+    },
+    {
+      "name": "cline",
+      "url": "https://github.com/cline/cline",
+      "category": "ai-native",
+      "angles": {
+        "reg": 70,
+        "trust": 68,
+        "safe": 55,
+        "machine": 68
+      },
+      "value": "Autonomous coding agent in your IDE (VSCode).",
+      "evidence": "公开资料初评（省积分约束，待实跑复核）",
+      "total": 65,
+      "verdict": "PASS",
+      "category_name": "AI-Native Dev Tools"
+    },
+    {
+      "name": "goose",
+      "url": "https://github.com/block/goose",
+      "category": "ai-native",
+      "angles": {
+        "reg": 70,
+        "trust": 65,
+        "safe": 55,
+        "machine": 70
+      },
+      "value": "Block's open-source AI agent, runs local tools and workflows.",
+      "evidence": "公开资料初评（省积分约束，待实跑复核）",
+      "total": 65,
+      "verdict": "PASS",
+      "category_name": "AI-Native Dev Tools"
+    },
+    {
+      "name": "tabby",
+      "url": "https://github.com/TabbyML/tabby",
+      "category": "ai-native",
+      "angles": {
+        "reg": 72,
+        "trust": 68,
+        "safe": 60,
+        "machine": 70
+      },
+      "value": "Self-hosted AI coding assistant, fully local.",
+      "evidence": "公开资料初评（省积分约束，待实跑复核）",
+      "total": 68,
+      "verdict": "PASS",
+      "category_name": "AI-Native Dev Tools"
     }
   ]
 }
