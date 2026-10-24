@@ -30,6 +30,10 @@ English: A curated, **machine-readable and evidence-based** list of AI agent pro
 | MACHINE-READABLE | Frontmatter, bilingual, license, index, hygiene | 基础设施：元数据、双语、许可、索引、规范 | ≥60 PASS |
 
 **Total = equal-weighted mean of the four angles; PASS ≥ 60.** The scoring engine is open source — run it on any repo yourself:
+
+> **Scoring calibration / 口径说明（2026-10-24）**: All scores on this page were produced with **skill-scorecard v0.2.0 (equal-weight average)**. The scorer has since moved to **v0.2.1 — weighted (SAFE ×2.0 / TRUST ×1.5 / REG ×1.0 / MACH ×0.75) with a triple fail-closed verdict (total ≥ 60 AND every angle ≥ 50 AND SAFE ≥ 60)**. Scores below are **not** recomputed under the new rule unless explicitly stated.
+> 本页分数由 skill-scorecard v0.2.0（四角度等权平均）产出；评分器已升级至 v0.2.1（SAFE/TRUST/REG/MACH 权重 2.0/1.5/1.0/0.75 + 三重 fail-closed 判定）。除另行注明外，本页分数未按新规则重算。
+
 **总分 = 四角度等权平均；PASS ≥ 60。** 评分引擎开源，您可自行对任意仓库运行：
 
 ```bash
