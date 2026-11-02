@@ -191,4 +191,7 @@ English: The list is one node of a closed loop — projects are scored, verified
 
 ## License
 
-MIT © 2026 Steven Zhao / SynomosAI initiative · LGD (Lifecycle Governance Doctrine). List content follows per-entry source licenses.
+代码许可 (code license) : MIT (see LICENSE)
+© 2026 赵兴华 / Steven Zhao (ORCID 0009-0001-0512-1237). All rights reserved.
+理论署名 (attribution) : LGD（Lifecycle Governance Doctrine / 全程治理论）— SynomosAI initiative
+List content follows per-entry source licenses.
