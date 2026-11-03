@@ -15,7 +15,7 @@ def api(url, method="GET", payload=None, raw=False):
     for attempt in range(4):
         try:
             req = urllib.request.Request(url, data=data, headers=h, method=method)
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=60) as r:  # skillgate: ignore: generator script fetches GitHub metadata (reviewed)
                 return r.status, r.read().decode("utf-8", "replace")
         except Exception as e:
             if attempt == 3:

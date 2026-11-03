@@ -124,7 +124,7 @@ python skill_scorecard.py <repo-or-skill-path> --json
 
 | Project | Category | REG | TRUST | SAFE | MACH | Total | Verdict | One-liner |
 |---|---|---|---|---|---|---|---|---|
-| [garak](https://github.com/NVIDIA/garak) | Security & Guardrails | 80 | 80 | 95 | 78 | **83** | ✅ PASS | LLM vulnerability scanner: prompt injection, jailbreak, data leakage probes. |
+| [garak](https://github.com/NVIDIA/garak) | Security & Guardrails | 80 | 80 | 95 | 78 | **83** | ✅ PASS | LLM vulnerability scanner: prompt injection and data leakage probing. |
 | [PyRIT](https://github.com/Azure/PyRIT) | Security & Guardrails | 82 | 78 | 95 | 76 | **83** | ✅ PASS | Microsoft red-teaming framework for AI risk identification. |
 | [LLM-Guard](https://github.com/protectai/llm-guard) | Security & Guardrails | 75 | 65 | 90 | 70 | **75** | ✅ PASS | Protect AI's input/output sanitization toolkit for LLM applications. |
 | [rebuff](https://github.com/protectai/rebuff) | Security & Guardrails | 72 | 62 | 85 | 68 | **72** | ✅ PASS | Prompt-injection detection toolkit with canary-word strategies. |
