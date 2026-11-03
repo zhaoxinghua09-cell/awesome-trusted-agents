@@ -1,4 +1,5 @@
 # 😎 awesome-trusted-agents
+[![Trust Score](https://img.shields.io/badge/Trust%20Score-64%2F100%20C-fe7d37.svg)](https://github.com/zhaoxinghua09-cell/skillgate)
 
 > **Trusted AI agent, skill, security, and benchmark list — every entry scored on four angles (REG/TRUST/SAFE/MACH).**
 > **可信 AI 智能体 / 技能 / 安全 / 评测清单 —— 每一条目均经四角度评分（REG/TRUST/SAFE/MACH）。**
@@ -192,3 +193,32 @@ English: The list is one node of a closed loop — projects are scored, verified
 ## License
 
 MIT © 2026 Steven Zhao / SynomosAI initiative · LGD (Lifecycle Governance Doctrine). List content follows per-entry source licenses.
+
+## Ecosystem / LGD 生态仓
+
+- [agent-evidence-kit](https://github.com/zhaoxinghua09-cell/agent-evidence-kit) — Trust Score 80/100 A — **Runnable reference implementations of two evidence-recording tools for agentic-AI governance: an ACS conformance verdict record (in-toto Statement v1) and an 
+- [agent-trust-identity-spec](https://github.com/zhaoxinghua09-cell/agent-trust-identity-spec) — Trust Score 98/100 A+ — 一份关于智能体身份**运行期可验证性**的技术规范草案。
+- [ai-governance-audit-chain](https://github.com/zhaoxinghua09-cell/ai-governance-audit-chain) — Trust Score 100/100 A+ — 为任何 AI 系统 / 智能体生成可审计证据链模板，用于回答「AI 出事了怎么举证」「监管来查我拿什么给」「AI 治理怎么留痕」这类问题
+- [ai-grader](https://github.com/zhaoxinghua09-cell/ai-grader) — Trust Score 100/100 A+ — 把 45 项工作意识量表作为通用评分基准，给任何 AI（ChatGPT / Claude / 自家 Agent）做行为体检，用于回答「这个 AI 靠不靠谱」「这条回复稳不稳」「两个 AI 哪个更好」这类问题
+- [authz-code-design](https://github.com/zhaoxinghua09-cell/authz-code-design) — Trust Score 82/100 A — [![License](https://img.shields.io/badge/License-LICENSE.md-yellow.svg)](LICENSE.md)
+- [continuous-test-review-loop](https://github.com/zhaoxinghua09-cell/continuous-test-review-loop) — Trust Score 100/100 A+ — 把「不断测试 → 复盘 → 改进 → 复测」做成常态化机制，用于回答「方案上线后怎么持续验证」「怎么让团队养成复盘节奏」这类问题
+- [credential-vault-design](https://github.com/zhaoxinghua09-cell/credential-vault-design) — Trust Score 79/100 B — 把散落各处的口令 / 密钥 / 令牌收成**一个**本地保险库——零知识加密、可恢复不锁死、分级授权、带防篡改审计链；**不连云、不把明文交给 AI**。
+- [dsh-secret-leakage-scan](https://github.com/zhaoxinghua09-cell/dsh-secret-leakage-scan) — Trust Score 72/100 B — Why it exists: once a live secret hits a public repo, a post, or an append-only log, it is irreversible. Rotation is the only fix, and you can't un-see it. This
+- [fingerprint-delivery](https://github.com/zhaoxinghua09-cell/fingerprint-delivery) — Trust Score 100/100 A+ — [![License](https://img.shields.io/badge/License-LICENSE.md-yellow.svg)](LICENSE.md)
+- [governanceos](https://github.com/zhaoxinghua09-cell/governanceos) — Trust Score 100/100 A+ — **The interlink engine & trust hub of the LGD agent-skills supermarket — one command wires the full AI-agent governance lifecycle (SPEC → PLAN → GATE → AUDIT → 
+- [identity-verify](https://github.com/zhaoxinghua09-cell/identity-verify) — Trust Score 100/100 A+ — [![License](https://img.shields.io/badge/License-LICENSE.md-yellow.svg)](LICENSE.md)
+- [LGD](https://github.com/zhaoxinghua09-cell/LGD) — Trust Score 80/100 A — **在线门户 Portal**：https://zhaoxinghua09-cell.github.io/lgd-hub/ — LGD 生态全景（理论 / 参考实现 / 技能全库），一跳即达。
+- [lgd-glossary](https://github.com/zhaoxinghua09-cell/lgd-glossary) — Trust Score 80/100 A — **Restore condition** — the structured commitment registered at the moment a downgrade takes effect, recording what will permit reinstatement: the evidence list
+- [lgd-hub](https://github.com/zhaoxinghua09-cell/lgd-hub) — Trust Score 95/100 A+ — **在线门户 Portal**：https://zhaoxinghua09-cell.github.io/lgd-hub/ — LGD 生态全景渲染页（理论 / 参考实现 / 技能 / 刊物），一跳即达。
+- [lgd-medai-demo](https://github.com/zhaoxinghua09-cell/lgd-medai-demo) — Trust Score 80/100 A — - **权利状态**：本仓库以 **Apache-2.0** 许可发布，可依该许可证条款自由使用、修改与再分发。
+- [lgd-skills-index](https://github.com/zhaoxinghua09-cell/lgd-skills-index) — Trust Score 80/100 A — 一个纯静态、零依赖的双语公开注册站：把面向治理的 **187 个 Agent 技能包** 按六条业务线聚合成一个可搜索、可筛选、机器可读的统一入口。
+- [lgd-theory](https://github.com/zhaoxinghua09-cell/lgd-theory) — Trust Score 98/100 A+ — **层级定位**：**理论层（Theory）** — XLGD 伞下的全程治理论（LGD）正式文本仓。词汇表与全景见 [XLGD 伞总览](https://github.com/zhaoxinghua09-cell/xlgd#readme)。
+- [local-llm-eval-assist](https://github.com/zhaoxinghua09-cell/local-llm-eval-assist) — Trust Score 100/100 A+ — 本地 LLM 自评辅助，用于回答「自己给自己打分会不会虚高」「评估怎么省积分」这类问题
+- [MinisSkills](https://github.com/zhaoxinghua09-cell/MinisSkills) — Trust Score 83/100 A — **Why the description matters:** The `description` field is the primary trigger mechanism. Claude reads the skill name + description to decide whether to load t
+- [promptshield](https://github.com/zhaoxinghua09-cell/promptshield) — Trust Score 100/100 A+ — **One install, your agent stops leaking secrets and obeying injected instructions.**
+- [publish-quality-gate](https://github.com/zhaoxinghua09-cell/publish-quality-gate) — Trust Score 100/100 A+ — 发布质量门禁，用于回答「发出去之前该查什么」「会不会带着公司信息就发了」「发完怎么自测」这类问题
+- [rag-eval-harness](https://github.com/zhaoxinghua09-cell/rag-eval-harness) — Trust Score 91/100 A+ — RAG 问答系统的质量评估与防幻觉验证方法论，用于回答「知识库答得准不准」「它会不会胡编」「换了模型还稳不稳」这类问题
+- [research-quality-gate](https://github.com/zhaoxinghua09-cell/research-quality-gate) — Trust Score 100/100 A+ — 调研 / 情报产物的质量门禁与多 agent 协作规范，用于回答「这份调研报告靠不靠谱」「结论有没有过度推断」「怎么判断评估本身有没有偏」这类问题
+- [skillurgy](https://github.com/zhaoxinghua09-cell/skillurgy) — Trust Score 100/100 A+ — Term Registration Claim · Registered: 2026-10-15 ｜ 命名注册声明 · 注册日期：2026-10-15
+- [synomos-ai-skills](https://github.com/zhaoxinghua09-cell/synomos-ai-skills) — Trust Score 98/100 A+ — **本仓库使用自定义许可，不是 MIT / Apache-2.0**。平台显示为 `Other`（NOASSERTION），
+- [xlgd](https://github.com/zhaoxinghua09-cell/xlgd) — Trust Score 98/100 A+ — **X 是区别符。** XLGD 是治理线的**伞层标识**，覆盖理论（LGD）与可执行协议（UIBC）。
