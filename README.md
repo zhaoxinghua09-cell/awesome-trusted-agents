@@ -100,7 +100,7 @@ python skill_scorecard.py <repo-or-skill-path> --json
 | Project | Category | REG | TRUST | SAFE | MACH | Total | Verdict | One-liner |
 |---|---|---|---|---|---|---|---|---|
 | [anthropic-skills](https://github.com/anthropics/skills) | Agent Skills | 85 | 80 | 65 | 82 | **78** | ✅ PASS | Official Anthropic Agent Skills collection (artifact builder, pdf, docx, xlsx...). |
-| [awesome-claude-skills](https://github.com/cyfyifanchen/awesome-claude-skills) | Agent Skills | 70 | 55 | 40 | 60 | **56** | ⚠️ FAIL | Community-curated Claude Code skills list (quality varies; verify before use). |
+| [awesome-claude-skills](https://github.com/hesreallyhim/awesome-claude-code) | Agent Skills | 70 | 55 | 40 | 60 | **56** | ⚠️ FAIL | Community-curated Claude Code skills list (quality varies; verify before use). |
 | [openai-gpt-marketing](https://chatgpt.com/gpts) | Agent Skills | 70 | 50 | 35 | 55 | **52** | ⚠️ FAIL | OpenAI GPTs marketplace — hosted custom assistants (closed platform, mixed quality). |
 
 *Agent Skills entries: evidence notes — anthropic-skills: 公开资料初评; awesome-claude-skills: 公开资料初评; openai-gpt-marketing: 公开资料初评*
@@ -128,7 +128,7 @@ python skill_scorecard.py <repo-or-skill-path> --json
 | [PyRIT](https://github.com/Azure/PyRIT) | Security & Guardrails | 82 | 78 | 95 | 76 | **83** | ✅ PASS | Microsoft red-teaming framework for AI risk identification. |
 | [LLM-Guard](https://github.com/protectai/llm-guard) | Security & Guardrails | 75 | 65 | 90 | 70 | **75** | ✅ PASS | Protect AI's input/output sanitization toolkit for LLM applications. |
 | [rebuff](https://github.com/protectai/rebuff) | Security & Guardrails | 72 | 62 | 85 | 68 | **72** | ✅ PASS | Prompt-injection detection toolkit with canary-word strategies. |
-| [OWASP-LLM-Top10](https://github.com/OWASP/www-project-llm-top-10) | Security & Guardrails | 85 | 85 | 95 | 75 | **85** | ✅ PASS | OWASP Top 10 for LLM Applications — canonical risk taxonomy. |
+| [OWASP-LLM-Top10](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) | Security & Guardrails | 85 | 85 | 95 | 75 | **85** | ✅ PASS | OWASP Top 10 for LLM Applications — canonical risk taxonomy. |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | Security & Guardrails | 78 | 74 | 82 | 76 | **78** | ✅ PASS | LLM red-team and eval harness: prompt attacks, assertions, CI integration. |
 
 *Security & Guardrails entries: evidence notes — garak: 公开资料初评（NVIDIA 官方+OWASP 关联）; PyRIT: 公开资料初评; LLM-Guard: 公开资料初评; rebuff: 公开资料初评; OWASP-LLM-Top10: 公开资料初评（OWASP 官方）; promptfoo: 公开资料初评*
@@ -140,7 +140,7 @@ python skill_scorecard.py <repo-or-skill-path> --json
 | [HELM](https://github.com/stanford-crfm/helm) | Benchmarks & Evaluation | 82 | 85 | 80 | 74 | **80** | ✅ PASS | Holistic Evaluation of Language Models (Stanford CRFM), multi-metric leaderboard. |
 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | Benchmarks & Evaluation | 80 | 85 | 75 | 72 | **78** | ✅ PASS | Standard benchmark for code agents resolving real GitHub issues. |
 | [AgentBench](https://github.com/THUDM/AgentBench) | Benchmarks & Evaluation | 76 | 78 | 72 | 70 | **74** | ✅ PASS | Multi-environment agent evaluation (OS, DB, game, web). |
-| [GAIA](https://github.com/huggingface/gaia-benchmark) | Benchmarks & Evaluation | 78 | 80 | 70 | 72 | **75** | ✅ PASS | General AI Assistants benchmark with real-world assistant questions. |
+| [GAIA](https://arxiv.org/abs/2311.12983) | Benchmarks & Evaluation | 78 | 80 | 70 | 72 | **75** | ✅ PASS | General AI Assistants benchmark with real-world assistant questions. |
 | [MMLU](https://github.com/hendrycks/test) | Benchmarks & Evaluation | 80 | 82 | 60 | 68 | **72** | ✅ PASS | Massive Multitask Language Understanding — 57-subject knowledge benchmark. |
 
 *Benchmarks & Evaluation entries: evidence notes — HELM: 公开资料初评; SWE-bench: 公开资料初评; AgentBench: 公开资料初评; GAIA: 公开资料初评; MMLU: 公开资料初评*
